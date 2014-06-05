@@ -1,34 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://localhost:27956", "{2891D950-CBA9-4F1A-8C56-92DFACE999CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMySql", "MySql\MyMySql.csproj", "{C4654742-E7B0-46BE-9C53-1A4BE2520B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D7A7E970-89FD-4FC4-BB0B-4AD4DED32B66}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(2)", "http://localhost:48370", "{D963717E-7F4C-4FFC-9E76-66A6A77625B4}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{c4654742-e7b0-46be-9c53-1a4be2520b36}|MySql.dll;{d7a7e970-89fd-4fc4-bb0b-4ad4ded32b66}|Domain.dll;"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_27956"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite1\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27956\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_48370"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48370\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_27956"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\WebSite1\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27956\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_48370"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48370\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\WebSite1\"
-		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "WebSite1\"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMySql", "MySql\MyMySql.csproj", "{C4654742-E7B0-46BE-9C53-1A4BE2520B36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D7A7E970-89FD-4FC4-BB0B-4AD4DED32B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,10 +34,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2891D950-CBA9-4F1A-8C56-92DFACE999CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2891D950-CBA9-4F1A-8C56-92DFACE999CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2891D950-CBA9-4F1A-8C56-92DFACE999CC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{2891D950-CBA9-4F1A-8C56-92DFACE999CC}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{C4654742-E7B0-46BE-9C53-1A4BE2520B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4654742-E7B0-46BE-9C53-1A4BE2520B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4654742-E7B0-46BE-9C53-1A4BE2520B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +42,10 @@ Global
 		{D7A7E970-89FD-4FC4-BB0B-4AD4DED32B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A7E970-89FD-4FC4-BB0B-4AD4DED32B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A7E970-89FD-4FC4-BB0B-4AD4DED32B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D963717E-7F4C-4FFC-9E76-66A6A77625B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D963717E-7F4C-4FFC-9E76-66A6A77625B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D963717E-7F4C-4FFC-9E76-66A6A77625B4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D963717E-7F4C-4FFC-9E76-66A6A77625B4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
